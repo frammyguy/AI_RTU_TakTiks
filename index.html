@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://i.ibb.co/kGMmSd6/favicon-frammy2.png" type="image/x-icon">
+    <title>Document</title>
+</head>
+
+<body>
+    <section id="startQuestion">
+        <div class="forQuestion">Enter field size</div>
+        <div class="subForQuestion">Enter number from 1 till 5</div>
+        <input id="tSize" type="number" placeholder="Board size">
+        <div class="questionErr">
+            <div id="inputErr" hidden>Input correct value</div>
+        </div>
+        <div class="questionInp">
+            <input id="checkAI" type="checkbox">
+            <div class="subForQuestion">Bot first?</div>
+        </div>
+        <button id="startGame">
+            Start
+        </button>
+    </section>
+    <section id="game">
+        <div class="gameTitle">Tak-Tic</div>
+        <div id="gameDesc">Board size</div>
+        <div id="gameTable"></div>
+    </section>
+
+    <div class="subName">Vladislavs Fomins<br>211RDB108</div>
+    <script src="index.js"></script>
+</body>
+
+</html>

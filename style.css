@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #342c42;
+    color: #fff;
+    transition: all 0.2s;
+}
+
+#startQuestion {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.forQuestion {
+    font-size: 30px;
+}
+
+.subForQuestion {
+    font-size: 12px;
+    color: #ffffff8f;
+}
+
+.subName {
+    font-size: 13px;
+    color: #ffffff8f;
+    text-align: right;
+    margin: 5px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#tSize {
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px 20px;
+    color: #000;
+    background-color: #d6cee2;
+    text-align: center;
+    transition: all 0.2s;
+}
+#tSize:hover {
+    background-color: #c2b7d4;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+}
+
+#tSize:focus {
+    background-color: #baa5da;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.404);
+}
+
+::placeholder {
+    color: #000;
+}
+
+.questionErr {
+    display: flex;
+    font-size: 15px;
+    width: 500px;
+    justify-content: space-around;
+}
+
+.questionErr div {
+    color: #ff8787;
+    width: 40%;
+    text-align: center;
+}
+
+.questionInp {
+    display: flex;
+}
+
+.questionInp input {
+    margin-right: 10px;
+}
+
+#startGame {
+    margin: 10px;
+    padding: 10px 40px;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: #bf87ff;
+    border: none;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+#startGame:hover {
+    background-color: #995ae2;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.404);
+}
+
+#startGame:active {
+    background-color: #793ac0;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.404);
+}
+
+#game {
+    width: 100vw;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameTitle {
+    font-size: 35px;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gameDesc {
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#gameTable {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.but {
+    height: 80px;
+    width: 80px;
+    font-size: 30px;
+    color: #fff;
+    border: 1px solid black;
+    padding: 5px;
+    transition: all 0.2s;
+    background-color: #ffffff3f;
+}
+
+.but:hover {
+    background-color: #ffffff8a;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
+    transform: scale(1.05);
+}
+
+.but:active {
+    background-color: #ffffffb4;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+}
