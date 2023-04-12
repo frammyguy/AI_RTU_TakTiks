@@ -237,6 +237,7 @@ function turnRec(arr, it) {
 
     }
 }
+// tried to do some recursion, but I didn't understand how to get and handle all that data
 
 function checkArr(x, y, xEnd, yEnd, arr) {
     for (let i = x; i < xEnd; i++) {
@@ -248,6 +249,7 @@ function checkArr(x, y, xEnd, yEnd, arr) {
     }
     return true;
 }
+// checks if turn can be made inside recursion loop
 
 function addToArr(x, y, xEnd, yEnd, arr) {
     for (let i = x; i < xEnd; i++) {
@@ -257,6 +259,7 @@ function addToArr(x, y, xEnd, yEnd, arr) {
     }
     return arr;
 }
+// fills array inside the loop to go through iterations
 
 function endArr(arr, col) {
     for (let i = 0; i < Tsize; i++) {
@@ -266,3 +269,4 @@ function endArr(arr, col) {
     }
     return true;
 }
+// check inside recursion loop if game ends
